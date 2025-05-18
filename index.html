@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday Counter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <center>
+        <!----screen1 inputscreen-->
+        <div id="inputscreen" class="countdown">
+            <h1>BirthdayCountdown</h1>
+            <label for="birthdayInput">Select your birthday:</label>
+            <input type="date" id="birthdayInput">
+            <button id="calculatebtn">Calculate Countdown</button>
+        </div>
+
+        <!---screen2 Birthday countdown-->
+        <div id="countdownscreen" class="countdown1">
+            <h1>Countdown to your birthday</h1>
+            <div id="countdown">
+                <div class="countdown-boxes">
+                    <div class="box">
+                        <span id="days">0</span>
+                        <p>Days</p>
+                    </div>
+                    <div class="box">
+                        <span id="hours">0</span>
+                        <p>Hours</p>
+                    </div>
+                    <div class="box">
+                        <span id="minutes">0</span>
+                        <p>Minutes</p>
+                    </div>
+                    <div class="box">
+                        <span id="seconds">0</span>
+                        <p>Seconds</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </center>
+    <script src="main.js"></script>
+</body>
+</html>
